@@ -8,8 +8,8 @@ namespace Data.EF.Configurations
     {
         public void Configure(EntityTypeBuilder<Person> builder)
         {
-            builder.Property(x => x.FirstName).IsRequired().HasMaxLength(50);
-            builder.Property(x => x.LastName).IsRequired().HasMaxLength(50);
+            builder.Property(x => x.FirstName).IsRequired().HasMaxLength(60);
+            builder.Property(x => x.LastName).IsRequired().HasMaxLength(70);
         }
     }
 }

@@ -28,7 +28,8 @@ namespace AzureSample.Controllers
             {
                 Id = x.Id,
                 FirstName = x.FirstName,
-                LastName = x.LastName
+                LastName = x.LastName,
+                DateOfBirth = x.BirthDate
             }).ToList();
 
             return View(data);
